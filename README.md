@@ -1,4 +1,7 @@
 # Plotting in Python: first steps
+
+A tutorial for migrating from Prism, Excel, or other graphical user interface plotting to programmatic plotting using Python.
+
 - this tutorial assumes running on a *Mac*
 - windows instructions are slightly different, I'll note where.
 # Background
@@ -18,7 +21,7 @@
 
 - note in Mac, you may have
 # Index
-## 1. [Setting up a programming environment](programming_environments.md)
-## 2. [your first plots in python](01_plotting.ipynb)
+## 0. [Setting up a programming environment](programming_environments.md)
+## 1. [your first plots in python](01_plotting.ipynb)
  - This section assumes you have an active virtual environment with jupyter-lab installed. Please see [section 1](programming_environments.md) for more details
-## 3. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
+## 2. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
