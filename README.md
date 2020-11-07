@@ -19,6 +19,6 @@
 - note in Mac, you may have
 # Index
 ## 1. [Setting up a programming environment](programming_environments.md)
-## 2. [your first plots in python](plotting_01.ipynb)
+## 2. [your first plots in python](01_plotting.ipynb)
  - This section assumes you have an active virtual environment with jupyter-lab installed. Please see [section 1](programming_environments.md) for more details
 ## 3. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
