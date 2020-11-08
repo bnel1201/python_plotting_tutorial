@@ -14,3 +14,6 @@
 - open your terminal and enter: `python`, and make sure you get the correct version you expect to confirm that it was installed properly
 
 - note in Mac, you may have
+
+# Conclusions
+ - Back to [index](README.md)

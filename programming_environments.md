@@ -43,5 +43,5 @@
 
 # Conclusions
  - This concludes our discussion of setting up a programming environment in python
- - Next is [plotting](plotting_01.ipynb)
+ - Next is [plotting](01_plotting.ipynb)
  - Back to [index](README.md)
