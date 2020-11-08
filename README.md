@@ -22,6 +22,11 @@ A tutorial for migrating from Prism, Excel, or other graphical user interface pl
 - note in Mac, you may have
 # Index
 ## 0. [Setting up a programming environment](programming_environments.md)
+ - If you have already set up an environment you can pick back up where you left off by doing the following.
+  1. Navigate back to your project folder
+     - e.g. `cd Desktop/myproject` if "myproject" is located on your desktop
+  2. re-activate your environment: `. myproject_env/bin/activate`
+  3. restart a jupyter server: `jupyter-lab`
 ## 1. [your first plots in python](01_plotting.ipynb)
  - This section assumes you have an active virtual environment with jupyter-lab installed. Please see [section 1](programming_environments.md) for more details
 ## 2. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
