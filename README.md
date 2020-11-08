@@ -3,6 +3,7 @@
 A tutorial for migrating from Prism, Excel, or other graphical user interface plotting to programmatic plotting using Python.
 
 - this tutorial assumes running on a *Mac*
+  - make sure you have Xcode installed if on Mac
 - windows instructions are slightly different, I'll note where.
 # Index
 ## 0. [Preliminaries](background.md)
