@@ -30,3 +30,12 @@ A tutorial for migrating from Prism, Excel, or other graphical user interface pl
 ## 1. [your first plots in python](01_plotting.ipynb)
  - This section assumes you have an active virtual environment with jupyter-lab installed. Please see [section 1](programming_environments.md) for more details
 ## 2. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
+
+# Basic terminal commands:
+1. change directory: `cd target_directory`
+2. go to home directory: `cd` or `cd ~`
+3. go back a directory: `cd ..`
+4. list files in current directory: `ls`
+5. make a new directory: `mkdir new_dir_name`
+6. remove a file: `rm file_to_be_removed.txt`
+7. show contents of a file: `cat filename.txt`
