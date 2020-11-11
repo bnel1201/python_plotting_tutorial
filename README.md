@@ -13,9 +13,13 @@ A tutorial for migrating from Prism, Excel, or other graphical user interface pl
      - e.g. `cd Desktop/myproject` if "myproject" is located on your desktop
   2. re-activate your environment: `. myproject_env/bin/activate`
   3. restart a jupyter server: `jupyter-lab`
-## 2. [your first plots in python](01_plotting.ipynb)
+## 2. [your first plots in python](notebooks/01_plotting.ipynb)
  - This section assumes you have an active virtual environment with jupyter-lab installed. Please see [section 1](programming_environments.md) for more details
-## 3. [plotting from spread sheet data (csv or excel)](02_plotting_from_spreadsheets.ipynb)
+## 3. [plotting from spread sheet data (csv or excel)](notebooks/02_plotting_from_spreadsheets.ipynb)
+
+## 4. Using Python to programmatically work with Excel
+ - [Excel demo notebook](notebooks/04_plotting_excel_in_python.ipynb)
+ 
 
 # Basic terminal commands:
 1. change directory: `cd target_directory`
