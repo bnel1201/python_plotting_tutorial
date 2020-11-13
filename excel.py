@@ -3,6 +3,7 @@ from openpyxl.chart import BarChart, Series, Reference
 import numpy as np
 import pandas as pd
 
+
 def write_to_barchart(df, filename="untitled.xlsx", xlabel='samples', ylabel='value', title=''):
     names = tuple(df.columns)
     rows = np.array(df)
@@ -29,7 +30,7 @@ def write_to_barchart(df, filename="untitled.xlsx", xlabel='samples', ylabel='va
     ws.add_chart(chart1, "A10")
 
     wb.save(filename)
-    
+
 
 def main():
     df = pd.read_csv("random_data.csv")
