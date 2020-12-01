@@ -20,7 +20,7 @@ def write_to_barchart(df, filename="untitled.xlsx", xlabel='samples', ylabel='va
     chart1.style = 10
     chart1.title = title
     chart1.y_axis.title = ylabel
-    chart1.x_axis.title =  xlabel
+    chart1.x_axis.title = xlabel
 
     data = Reference(ws, min_col=2, min_row=1, max_row=len(rows), max_col=len(rows[0]))
     cats = Reference(ws, min_col=1, min_row=2, max_row=len(rows))
