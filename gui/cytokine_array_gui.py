@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'cyokine_array.ui'
+# Form implementation generated from reading ui file 'gui\cyokine_array.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.1
 #
@@ -14,30 +14,30 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(369, 230)
+        MainWindow.resize(463, 230)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.databutton = QtWidgets.QPushButton(self.centralwidget)
         self.databutton.setGeometry(QtCore.QRect(10, 50, 91, 31))
         self.databutton.setObjectName("databutton")
         self.datalabel = QtWidgets.QLabel(self.centralwidget)
-        self.datalabel.setGeometry(QtCore.QRect(110, 40, 121, 41))
+        self.datalabel.setGeometry(QtCore.QRect(230, 50, 231, 31))
         self.datalabel.setObjectName("datalabel")
         self.namesbutton = QtWidgets.QPushButton(self.centralwidget)
-        self.namesbutton.setGeometry(QtCore.QRect(10, 120, 101, 23))
+        self.namesbutton.setGeometry(QtCore.QRect(10, 112, 91, 31))
         self.namesbutton.setObjectName("namesbutton")
         self.nameslabel = QtWidgets.QLabel(self.centralwidget)
-        self.nameslabel.setGeometry(QtCore.QRect(120, 120, 121, 21))
+        self.nameslabel.setGeometry(QtCore.QRect(230, 120, 231, 21))
         self.nameslabel.setObjectName("nameslabel")
         self.runbutton = QtWidgets.QPushButton(self.centralwidget)
-        self.runbutton.setGeometry(QtCore.QRect(20, 160, 75, 23))
+        self.runbutton.setGeometry(QtCore.QRect(10, 160, 61, 21))
         self.runbutton.setObjectName("runbutton")
-        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
-        self.textEdit.setGeometry(QtCore.QRect(130, 10, 191, 31))
-        self.textEdit.setObjectName("textEdit")
+        self.enter_filename = QtWidgets.QTextEdit(self.centralwidget)
+        self.enter_filename.setGeometry(QtCore.QRect(130, 10, 301, 31))
+        self.enter_filename.setObjectName("enter_filename")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 369, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 463, 22))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -55,7 +55,7 @@ class Ui_MainWindow(object):
         self.namesbutton.setText(_translate("MainWindow", "Load names file"))
         self.nameslabel.setText(_translate("MainWindow", "No names file found"))
         self.runbutton.setText(_translate("MainWindow", "Run"))
-        self.textEdit.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.enter_filename.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8pt; font-weight:400; font-style:normal;\">\n"

@@ -15,7 +15,7 @@ def random_heights(n=8): return np.abs(np.random.randn(n))
 def random_names(height): return [get_random_string(3) for i in range(len(height))]
 
 
-def make_fake_dataframe(ngroups=6):
+def make_fake_dataframe(ngroups=6, savefile=None):
     means = [random_heights() for i in range(ngroups)]
     stds = [random_heights()/10 for i in range(ngroups)]
     names = random_names(means[0])
@@ -24,4 +24,10 @@ def make_fake_dataframe(ngroups=6):
     z = dict()
     dicts = [{f'group {i} mean': mean, f'group {i} std': std} for mean, std, i in zip(means, stds, range(len(means)))]
     [z.update(d) for d in dicts]
-    return pd.DataFrame(z, index = names)
+    
+    df = pd.DataFrame(z, index = names)
+
+    if savefile:
+        df.to_csv(savefile)
+
+    return df
