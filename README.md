@@ -23,13 +23,13 @@ A tutorial for migrating from Prism, Excel, or other graphical user interface pl
 
 ## 3. [plotting from spread sheet data (csv or excel)](notebooks/02_plotting_from_spreadsheets.ipynb)
 
-## 4. Using Python to programmatically work with Excel
+## 4. Using [Python to programmatically work with Excel](Excel/README.md)
 
 - [Excel demo notebook](notebooks/04_plotting_excel_in_python.ipynb)
 
 - [Excel demo script](excel.py)
 
-## 5. Wrap it all up in a *G*raphical *U*ser *I*nterface
+## 5. Wrap it all up in a [*G*raphical *U*ser *I*nterface](gui/README.md)
 
 - [cytokine GUI demo](cytokine_array.py)
 

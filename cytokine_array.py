@@ -6,7 +6,7 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QFileDialog
 
 from gui.cytokine_array_gui import Ui_MainWindow
-from excel import to_excel_error_barchart
+from Excel.excel import to_excel_error_barchart
 
 
 class CytokineArrayGui(Ui_MainWindow):
