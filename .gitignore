@@ -1,0 +1,5 @@
+dist 
+*.xlsx 
+build 
+__pycache__ 
+*.spec 
