@@ -12,6 +12,16 @@ A tutorial for migrating from Prism, Excel, or other graphical user interface pl
 
 - If you have already set up an environment you can pick back up where you left off by doing the following. Recall that your environment contains specific verisions of python and packages specific to your project.
 
+### Making a new environment
+
+- these instructions all you to create a project environment called: `myprojectname` from anywhere on your computer because it uses the path relative to your home path `~`
+- this assumes you have made a folder called `.venvs` in your home directory `~`. If you want this folder to *not be invisible* make it: `venvs` or anything without a period `.` at the start of the name.
+
+1. `python3 -m ~/.venvs/myprojectname`
+2. `source activate ~/.venvs/myprojectname`
+
+### Re-activating an environment
+
   1. Navigate back to your project folder
      - e.g. `cd Desktop/myproject` if "myproject" is located on your desktop
   2. re-activate your environment: `. myproject_env/bin/activate`
