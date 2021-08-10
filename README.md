@@ -35,4 +35,9 @@ While there is an abundance of excellent information out there online, it can be
 
 For a scientist, regardless of background or specialization, [Software Carpentry](https://software-carpentry.org/) is an excellent starting point to gather more extensive information on all topics cover, so consider this blog-series a too long, didn't read tldr, so we aim to keep it brief.
 
-## Next: [Background to Computing Environments](background.md)
+## Next
+
+1. [Background to Computing Environments](programming_environments.md)
+2. [Notes for Mac users](background.md)
+3. [Basic Terminal Commands](basic_terminal_commands.md)
+4. [Plotting with Python](getting_started_w_plotting.md)
