@@ -34,3 +34,5 @@ as well as from three papers also cited in the podcast:
 While there is an abundance of excellent information out there online, it can be intimidating to know where to start. The purpose of this post is introduce the core concepts that I find valuable and point to more extensive references. The main goal is simply to make you aware of what is out there, what is possible, and how it can help you.
 
 For a scientist, regardless of background or specialization, [Software Carpentry](https://software-carpentry.org/) is an excellent starting point to gather more extensive information on all topics cover, so consider this blog-series a too long, didn't read tldr, so we aim to keep it brief.
+
+## Next: [Background to Computing Environments](background.md)
